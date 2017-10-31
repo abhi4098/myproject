@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background_light"
+    android:orientation="horizontal"
+
+    >
+
+   <!-- <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="start"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider_light_gray" />
+        </LinearLayout>
+-->
+
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="start"
+            android:text="Product Name"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+
+        <!--<LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>-->
+
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="Wholesaler"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+
+    <!--    <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>-->
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Prev cost"
+
+            >
+        </TextView>
+
+        <!--<LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>-->
+
+        <TextView
+
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="New cost"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+
+
+    <TextView
+
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:gravity="center"
+        android:text="Margins(%)"
+        android:textStyle="bold"
+
+        >
+    </TextView>
+
+     <TextView
+
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:layout_width="105dp"
+         android:layout_height="wrap_content"
+         android:text="Prev Price"
+         android:textStyle="bold"
+         >
+     </TextView>
+
+
+        <TextView
+
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="New Price"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+
+
+
+       <!-- <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>-->
+
+        <TextView
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="Status"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+
+      <!--  <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>-->
+
+
+
+
+      <!--  <TextView
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="Reorder"
+            android:textStyle="bold"
+            >
+        </TextView>-->
+
+        <!--<LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="2.7dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider_light_gray" />
+        </LinearLayout>-->
+
+
+
+    <!--</TableRow>-->
+
+
+</LinearLayout>

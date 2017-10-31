@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/primary_color"
+        android:layout_marginStart="-12dp"
+       >
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="start"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider_White" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/icon_logo_toolbar"/>
+
+
+            <TextView
+                android:id="@+id/tv_app_title"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dashboard"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_gravity="end"
+                android:layout_height="match_parent" >
+                <View style="@style/Divider_White" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/icon_message"/>
+
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="end"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider_White" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/merchant_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merchant Name"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginEnd="10dp"
+             android:background="@drawable/icon_arrow"/>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_gravity="end"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp">
+                <View style="@style/Divider_White" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+</merge>
