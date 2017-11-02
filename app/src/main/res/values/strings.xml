@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cobaltconnect</string>
+    <string name="app_name">CobaltConnect</string>
     <string name="newly_updated">Newly Updated</string>
     <string name="Stock_details">Stock Details</string>
     <string name="title_activity_navigational_drawer">navigationalDrawerActivity</string>

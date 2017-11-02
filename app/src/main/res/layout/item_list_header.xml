@@ -2,44 +2,93 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="40dp"
     android:background="@color/background_light"
     android:orientation="horizontal"
 
     >
 
-   <!-- <LinearLayout
-            android:layout_width="1dp"
-            android:layout_gravity="start"
-            android:layout_height="match_parent" >
 
-            <View style="@style/Divider_light_gray" />
-        </LinearLayout>
--->
 
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:layout_width="160dp"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"
             android:gravity="start"
             android:text="Product Name"
             android:textStyle="bold"
+            android:textSize="13sp"
             >
         </TextView>
 
-
-        <!--<LinearLayout
-            android:layout_width="1dp"
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_height="match_parent" >
-
-            <View style="@style/Divider" />
-        </LinearLayout>-->
+            android:orientation="vertical"
+            >
 
 
+    <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="15dp"
+            android:id="@+id/ll_name_asc"
+           android:layout_marginTop="5dp"
+           android:layout_gravity="top">
 
-        <TextView
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="1dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/arrow_up_image"/>
+
+          </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_name_dsc"
+                android:layout_gravity="bottom">
+
+
+            <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+
+      <!--  <TextView
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
@@ -48,19 +97,87 @@
             android:text="Wholesaler"
             android:textStyle="bold"
             >
-        </TextView>
+        </TextView>-->
 
-
-    <!--    <LinearLayout
-            android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
-
-            <View style="@style/Divider" />
-        </LinearLayout>-->
-
+    <LinearLayout
+        android:layout_width="110dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
 
         <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="Wholesaler"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_wholesaler_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_wholesaler_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+
+       <!-- <TextView
             android:layout_width="105dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
@@ -70,17 +187,86 @@
             android:text="Prev cost"
 
             >
-        </TextView>
+        </TextView>-->
 
-        <!--<LinearLayout
-            android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
-
-            <View style="@style/Divider" />
-        </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="105dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
 
         <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Prev cost"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_prev_cost_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_prev_cost_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+      <!--  <TextView
 
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -90,10 +276,88 @@
             android:text="New cost"
             android:textStyle="bold"
             >
+        </TextView>-->
+
+    <LinearLayout
+        android:layout_width="105dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
+
+        <TextView
+
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="New cost"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            >
         </TextView>
 
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
 
 
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/ll_new_cost_asc"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_new_cost_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+<!--
     <TextView
 
         android:layout_width="105dp"
@@ -105,9 +369,91 @@
         android:textStyle="bold"
 
         >
-    </TextView>
 
-     <TextView
+    </TextView>
+-->
+
+    <LinearLayout
+        android:layout_width="105dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
+
+        <TextView
+
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="Margins(%)"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+            android:textStyle="bold"
+
+            >
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_margin_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_margin_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+    <!-- <TextView
 
          android:paddingTop="8sp"
          android:paddingBottom="8sp"
@@ -117,10 +463,90 @@
          android:text="Prev Price"
          android:textStyle="bold"
          >
-     </TextView>
+     </TextView>-->
 
+    <LinearLayout
+        android:layout_width="105dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
 
         <TextView
+
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Prev Price"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_prev_price_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_prev_price_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+
+     <!--   <TextView
 
             android:layout_width="105dp"
             android:layout_height="wrap_content"
@@ -131,19 +557,90 @@
             android:textStyle="bold"
 
             >
+        </TextView>-->
+
+    <LinearLayout
+        android:layout_width="105dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
+
+        <TextView
+
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="New Price"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+
+            >
         </TextView>
 
 
-
-       <!-- <LinearLayout
-            android:layout_width="1dp"
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_height="match_parent" >
+            android:orientation="vertical"
+            >
 
-            <View style="@style/Divider" />
-        </LinearLayout>-->
 
-        <TextView
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_new_price_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/ll_new_price_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+        <!--<TextView
             android:layout_width="118dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
@@ -153,43 +650,77 @@
             android:textStyle="bold"
 
             >
+        </TextView>-->
+    <LinearLayout
+            android:layout_width="110dp"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:layout_height="match_parent" >
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8sp"
+                android:paddingBottom="8sp"
+                android:gravity="center"
+                android:text="Status"
+                android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+
+        >
         </TextView>
 
-      <!--  <LinearLayout
-            android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
 
-            <View style="@style/Divider" />
-        </LinearLayout>-->
-
-
+        <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+        >
 
 
-      <!--  <TextView
+            <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/ll_status_asc"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="top">
 
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:paddingTop="8sp"
-            android:paddingBottom="8sp"
-            android:gravity="center"
-            android:text="Reorder"
-            android:textStyle="bold"
-            >
-        </TextView>-->
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/arrow_up_image"/>
 
-        <!--<LinearLayout
-            android:layout_width="1dp"
-            android:layout_gravity="end"
-            android:layout_marginStart="2.7dp"
-            android:layout_height="match_parent" >
-
-            <View style="@style/Divider_light_gray" />
-        </LinearLayout>-->
+            </LinearLayout>
 
 
+            <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/ll_status_dsc"
+                    android:layout_gravity="bottom">
 
-    <!--</TableRow>-->
+
+                <ImageView
+                        android:layout_marginTop="1dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
 
 
 </LinearLayout>

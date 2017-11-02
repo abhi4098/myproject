@@ -32,7 +32,7 @@
     <style name="Divider_light_gray">
         <item name="android:layout_width">1dip</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">#e6e7e8</item>
+        <item name="android:background">#DCDCDC</item>
     </style>
 
     <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">

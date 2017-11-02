@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context="com.a83idea.cobaltconnect.ui.fragments.NewlyUpdatedFragment">
+    tools:context="com.a83ideas.cobaltConnect.ui.fragments.NewlyUpdatedFragment">
 
     <!--  <EditText
           android:id="@+id/etSearch"
@@ -252,6 +252,7 @@
                 android:id="@+id/show_stats"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="13sp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
                 />
