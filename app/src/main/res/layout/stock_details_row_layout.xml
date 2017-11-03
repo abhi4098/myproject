@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:stretchColumns="*"
-    android:background="@color/white"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/white"
+             android:stretchColumns="*"
     >
+
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,106 +14,102 @@
 
         <LinearLayout
             android:layout_width="1dp"
-            android:layout_gravity="start"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
 
-            <View style="@style/Divider" />
+            <View style="@style/Divider"/>
         </LinearLayout>
-
 
 
         <TextView
             android:id="@+id/item_id"
             android:layout_column="0"
-            android:padding="8sp"
-            android:gravity="center"
             android:layout_span="2"
+            android:gravity="center"
+            android:padding="8sp"
             >
         </TextView>
 
         <LinearLayout
             android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
 
-            <View style="@style/Divider" />
+            <View style="@style/Divider"/>
         </LinearLayout>
-
 
 
         <TextView
             android:id="@+id/item_name"
             android:layout_column="0"
-            android:padding="8sp"
-            android:gravity="center"
             android:layout_span="2"
+            android:gravity="center"
+            android:padding="8sp"
             >
         </TextView>
 
         <LinearLayout
             android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
 
-            <View style="@style/Divider" />
+            <View style="@style/Divider"/>
         </LinearLayout>
-
 
 
         <TextView
             android:id="@+id/previous_price"
             android:layout_column="1"
-            android:padding="8sp"
-            android:gravity="center"
             android:layout_span="2"
+            android:gravity="center"
+            android:padding="8sp"
             >
         </TextView>
 
 
         <LinearLayout
             android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
 
-            <View style="@style/Divider" />
+            <View style="@style/Divider"/>
         </LinearLayout>
 
 
         <TextView
             android:id="@+id/current_price"
             android:layout_column="1"
-            android:padding="8sp"
-            android:gravity="center"
             android:layout_span="2"
+            android:gravity="center"
+            android:padding="8sp"
             >
         </TextView>
 
         <LinearLayout
             android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
 
-            <View style="@style/Divider" />
+            <View style="@style/Divider"/>
         </LinearLayout>
-
 
 
         <TextView
             android:id="@+id/margin"
             android:layout_column="1"
-            android:padding="8sp"
-            android:gravity="center"
             android:layout_span="2"
+            android:gravity="center"
+            android:padding="8sp"
             >
         </TextView>
 
         <LinearLayout
             android:layout_width="1dp"
+            android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:layout_marginStart="1.3dp"
-            android:layout_height="match_parent" >
+            android:layout_marginStart="1.3dp">
 
-            <View style="@style/Divider" />
+            <View style="@style/Divider"/>
         </LinearLayout>
     </TableRow>
 

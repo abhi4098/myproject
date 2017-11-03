@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    android:layout_marginStart="50dp"
-    android:layout_marginEnd="100dp"
-    android:layout_marginTop="100dp"
-    android:layout_marginBottom="120dp">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="120dp"
+              android:layout_marginEnd="100dp"
+              android:layout_marginStart="50dp"
+              android:layout_marginTop="100dp"
+              android:background="@color/white"
+              android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="Full Name:"/>
+            android:text="Full Name:"
+            android:textSize="14sp"/>
 
         <TextView
             android:id="@+id/full_name"
             android:layout_width="350dp"
             android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:lines="1"
-            android:textStyle="normal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
             android:textSize="14sp"
+            android:textStyle="normal"
 
 
-             />
+            />
 
 
     </LinearLayout>
@@ -49,19 +49,19 @@
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="Token -Id:"/>
+            android:text="Token -Id:"
+            android:textSize="14sp"/>
 
         <TextView
             android:id="@+id/token_id"
             android:layout_width="350dp"
             android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:lines="1"
-            android:textStyle="normal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
             android:textSize="14sp"
-             />
+            android:textStyle="normal"
+            />
 
 
     </LinearLayout>
@@ -76,20 +76,20 @@
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="Email -id:"/>
+            android:text="Email -id:"
+            android:textSize="14sp"/>
 
 
         <TextView
             android:id="@+id/email_id"
             android:layout_width="350dp"
             android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:lines="1"
-            android:textStyle="normal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
             android:textSize="14sp"
-         />
+            android:textStyle="normal"
+            />
 
 
     </LinearLayout>
@@ -102,20 +102,20 @@
 
         <TextView
             android:layout_width="150dp"
-            android:textSize="14sp"
             android:layout_height="wrap_content"
-            android:text="Clover -Id:"/>
+            android:text="Clover -Id:"
+            android:textSize="14sp"/>
 
 
         <TextView
             android:id="@+id/clover_id"
             android:layout_width="350dp"
             android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:lines="1"
-            android:textStyle="normal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
             android:textSize="14sp"
+            android:textStyle="normal"
             />
 
 
@@ -131,20 +131,20 @@
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="Clover token:"/>
+            android:text="Clover token:"
+            android:textSize="14sp"/>
 
 
         <TextView
             android:id="@+id/clover_token"
             android:layout_width="350dp"
             android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:lines="1"
-            android:textStyle="normal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
             android:textSize="14sp"
-             />
+            android:textStyle="normal"
+            />
 
 
     </LinearLayout>
@@ -159,25 +159,23 @@
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="State -Id:"/>
+            android:text="State -Id:"
+            android:textSize="14sp"/>
 
 
         <TextView
             android:id="@+id/state_id"
             android:layout_width="350dp"
             android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:lines="1"
-            android:textStyle="normal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
             android:textSize="14sp"
+            android:textStyle="normal"
             />
 
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>

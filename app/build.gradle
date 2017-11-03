@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.3'
+    buildToolsVersion '25.0.0'
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "com.a83idea.cobaltconnect"
+        applicationId "com.CobaltConnect1"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
@@ -16,7 +16,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("/home/pstakecare/Important_Docs/cloverApp/CobaltConnectApp/key/testclover.jks")
+            storeFile file("/home/admin1/Downloads/testclover.jks")
             storePassword 'clover143'
             keyAlias 'cobalt'
             keyPassword 'clover143'

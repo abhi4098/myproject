@@ -7,56 +7,55 @@
         <item
             android:id="@+id/dashboard"
             android:icon="@drawable/icon_home_gray"
-            android:title="Dashboard " />
+            android:title="Dashboard "/>
 
         <item
             android:id="@+id/newly_updated"
             android:icon="@drawable/icon_updates_gray"
-            android:title="Products Updates " />
+            android:title="Products Updates "/>
         <item
             android:id="@+id/revenue"
             android:icon="@drawable/icon_revnue_gray"
-            android:title="Revenue" />
+            android:title="Revenue"/>
         <item
             android:id="@+id/my_products"
             android:icon="@drawable/iconproduct_gray"
-            android:title="My Products" />
+            android:title="My Products"/>
         <item
             android:id="@+id/purchase_orders"
             android:icon="@drawable/icon_purchase_gray"
-            android:title="Purchase Orders" />
+            android:title="Purchase Orders"/>
 
         <item
             android:id="@+id/reporting"
             android:icon="@drawable/icon_reporting_gray"
-            android:title="Reporting" />
+            android:title="Reporting"/>
 
         <item
             android:id="@+id/change_password"
             android:icon="@drawable/icon_password_gray"
-            android:title="Change Password" />
+            android:title="Change Password"/>
 
 
         <item
             android:id="@+id/logout"
             android:icon="@drawable/icon_logout_gray"
-            android:title="Logout" />
-
+            android:title="Logout"/>
 
 
     </group>
 
-   <!-- <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>-->
+    <!-- <item android:title="Communicate">
+         <menu>
+             <item
+                 android:id="@+id/nav_share"
+                 android:icon="@drawable/ic_menu_share"
+                 android:title="Share" />
+             <item
+                 android:id="@+id/nav_send"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Send" />
+         </menu>
+     </item>-->
 
 </menu>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_connect_cobalt_main"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    android:background="@drawable/signup_background"
-    tools:context="com.a83ideas.cobaltConnect.ui.activities.SignInActivity">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_connect_cobalt_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/signup_background"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+              tools:context="com.a83ideas.com.CobaltConnect1.ui.activities.SignInActivity">
 
     <TextView
 
         android:layout_width="160dp"
         android:layout_height="55dp"
-        android:background="@drawable/logo"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
         android:layout_marginBottom="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/logo"
         />
 
 
@@ -24,92 +24,89 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:orientation="vertical"
         android:background="@color/white"
+        android:orientation="vertical"
 
         >
 
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/primary_color" />
+            android:background="@color/primary_color"/>
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:textColor="@color/light_black"
-            android:layout_marginTop="15dp"
             android:layout_marginStart="230dp"
-            android:text="@string/text_signUp"/>
-
-
-     <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
-            android:orientation="horizontal">
-
-
-
-        <EditText
-            android:id="@+id/user_name"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:layout_width="240dp"
-            android:layout_height="32dp"
-            android:textStyle="normal"
-            android:textColor="@color/text_color"
-            android:lines="1"
-            android:textSize="12sp"
-            android:background="@drawable/rectangular_background"
             android:layout_marginTop="15dp"
-            android:hint="@string/hint_full_name"/>
-
-
-
-        <EditText
-            android:id="@+id/user_email"
-            android:layout_width="240dp"
-            android:layout_height="32dp"
-            android:layout_marginStart="20dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:lines="1"
-            android:textColor="@color/text_color"
-            android:textStyle="normal"
-            android:layout_marginTop="15dp"
-            android:textSize="12sp"
-            android:background="@drawable/rectangular_background"
-            android:hint="@string/hint_email_id"
-            android:inputType="textEmailAddress" />
-
-</LinearLayout>
-
+            android:text="@string/text_signUp"
+            android:textColor="@color/light_black"
+            android:textSize="15sp"/>
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="240dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangular_background"
+                android:hint="@string/hint_full_name"
+                android:lines="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+
+            <EditText
+                android:id="@+id/user_email"
+                android:layout_width="240dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangular_background"
+                android:hint="@string/hint_email_id"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
             android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="240dp"
                 android:layout_height="32dp"
-                android:orientation="horizontal"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:textColor="@color/text_color"
-                android:lines="1"
-                android:textStyle="normal"
                 android:layout_marginTop="20dp"
-                android:textSize="12sp"
                 android:background="@drawable/rectangular_background"
-              >
+                android:lines="1"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                >
 
                 <Spinner
                     android:id="@+id/user_state"
@@ -117,12 +114,12 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_gravity="center"
-                    android:background="@android:color/transparent"
-                    android:textAlignment="center"
-                    android:dropDownWidth="240dp"
                     android:layout_marginEnd="10dp"
+                    android:background="@android:color/transparent"
+                    android:dropDownWidth="240dp"
+                    android:spinnerMode="dropdown"
 
-                    android:spinnerMode="dropdown" />
+                    android:textAlignment="center"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -131,7 +128,7 @@
                     android:layout_centerVertical="true"
                     android:layout_gravity="center"
                     android:layout_marginEnd="10dp"
-                    android:src="@drawable/arrow_down" />
+                    android:src="@drawable/arrow_down"/>
 
             </RelativeLayout>
 
@@ -152,21 +149,20 @@
 -->
 
 
-
             <EditText
-            android:id="@+id/user_clover_Id"
-            android:layout_width="240dp"
-            android:layout_height="32dp"
-            android:layout_marginStart="20dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:lines="1"
-            android:textStyle="normal"
+                android:id="@+id/user_clover_Id"
+                android:layout_width="240dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangular_background"
+                android:hint="@string/enter_clover_id"
+                android:lines="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:textColor="@color/text_color"
-            android:layout_marginTop="20dp"
-            android:textSize="12sp"
-            android:background="@drawable/rectangular_background"
-            android:hint="@string/enter_clover_id"/>
+                android:textSize="12sp"
+                android:textStyle="normal"/>
 
         </LinearLayout>
 
@@ -174,120 +170,120 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
             android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/user_Clover_Api_key"
-            android:layout_width="240dp"
-            android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:lines="1"
-            android:textStyle="normal"
-            android:layout_marginTop="20dp"
-            android:textSize="12sp"
-            android:textColor="@color/text_color"
-            android:background="@drawable/rectangular_background"
-            android:hint="@string/enter_clover_api_key"/>
+            <EditText
+                android:id="@+id/user_Clover_Api_key"
+                android:layout_width="240dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangular_background"
+                android:hint="@string/enter_clover_api_key"
+                android:lines="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
 
             <EditText
                 android:id="@+id/user_cobalt_id"
                 android:layout_width="240dp"
                 android:layout_height="32dp"
-                android:paddingStart="10dp"
                 android:layout_marginStart="20dp"
-                android:paddingEnd="10dp"
-                android:lines="1"
-                android:textStyle="normal"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/rectangular_background"
+                android:hint="@string/enter_cobalt_id"
+                android:lines="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:textColor="@color/text_color"
                 android:textSize="12sp"
-                android:background="@drawable/rectangular_background"
-                android:hint="@string/enter_cobalt_id"/>
+                android:textStyle="normal"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
             android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/user_add_password"
-            android:layout_width="240dp"
-            android:layout_height="32dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:lines="1"
-            android:textStyle="normal"
-            android:textColor="@color/text_color"
-            android:layout_marginTop="20dp"
-            android:textSize="12sp"
-            android:background="@drawable/rectangular_background"
-            android:hint="@string/enter_password"
-            />
+            <EditText
+                android:id="@+id/user_add_password"
+                android:layout_width="240dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangular_background"
+                android:hint="@string/enter_password"
+                android:lines="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="italic"
-                android:layout_marginTop="-5dp"
                 android:layout_marginStart="150dp"
-                android:textSize="10sp"
+                android:layout_marginTop="-5dp"
+                android:text="@string/cobalt_id_is_your_login_id"
                 android:textColor="@color/text_color"
-                android:text="@string/cobalt_id_is_your_login_id"/>
+                android:textSize="10sp"
+                android:textStyle="italic"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
-           >
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
 
             <CheckBox
                 android:id="@+id/checkbox_terms"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="@color/text_color"
                 android:text="@string/i_accept"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
                 />
 
             <TextView
+                android:id="@+id/text_forgot_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/text_forgot_password"
-                android:textSize="12sp"
                 android:layout_margin="3dp"
+                android:text="@string/terms_and_conditions"
                 android:textColor="@color/primary_color"
-                android:text="@string/terms_and_conditions"/>
+                android:textSize="12sp"/>
 
-            </LinearLayout>
+        </LinearLayout>
 
 
         <Button
+            android:id="@+id/button_sign_up"
             android:layout_width="250dp"
             android:layout_height="30dp"
-            android:text="@string/sign_up"
-            android:textColor="@color/white"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/button_state_selector"
-            android:id="@+id/button_sign_up"/>
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
 
 
     </LinearLayout>

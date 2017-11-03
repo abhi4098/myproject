@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="25dp"
-    android:layout_width="250dp">
+       android:layout_width="250dp"
+       android:layout_height="25dp">
     <solid android:color="#4D3d3d3d"/>
-    <stroke android:width="0dip" android:color="@color/background_light_gray" />
-    <corners android:topLeftRadius="0dip" android:topRightRadius="0dip"
-        android:bottomLeftRadius="3dip" android:bottomRightRadius="12dip"/>
-    <padding android:left="0dip" android:top="0dip" android:right="0dip" android:bottom="0dip" />
+    <stroke
+        android:width="0dip"
+        android:color="@color/background_light_gray"/>
+    <corners
+        android:bottomLeftRadius="3dip"
+        android:bottomRightRadius="12dip"
+        android:topLeftRadius="0dip"
+        android:topRightRadius="0dip"/>
+    <padding
+        android:bottom="0dip"
+        android:left="0dip"
+        android:right="0dip"
+        android:top="0dip"/>
 </shape>

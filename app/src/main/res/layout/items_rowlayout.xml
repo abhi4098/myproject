@@ -1,9 +1,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="center_vertical"
-    android:background="@color/background_light_gray"
-    android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/background_light_gray"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
 
     >
 
@@ -20,11 +20,11 @@
     <TextView
         android:id="@+id/item_name"
         android:layout_width="150dp"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
+        android:paddingBottom="8sp"
+        android:paddingTop="8sp"
         android:textSize="12sp"
         android:textStyle="normal"
         >
@@ -40,16 +40,15 @@
     </LinearLayout>-->
 
 
-
     <TextView
+        android:id="@+id/wholesaler"
         android:layout_width="90dp"
         android:layout_height="wrap_content"
-        android:paddingTop="8sp"
         android:layout_marginEnd="10dp"
-        android:paddingBottom="8sp"
         android:layout_marginStart="10dp"
         android:gravity="center"
-        android:id="@+id/wholesaler"
+        android:paddingBottom="8sp"
+        android:paddingTop="8sp"
         android:textSize="12sp"
         android:textStyle="normal"
         >
@@ -66,17 +65,17 @@
 
 
     <TextView
+        android:id="@+id/previous_cost"
         android:layout_width="85dp"
         android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:textStyle="normal"
-        android:lines="1"
-        android:textSize="12sp"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:id="@+id/previous_cost"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingBottom="8sp"
+        android:paddingTop="8sp"
+        android:textSize="12sp"
+        android:textStyle="normal"
 
         >
     </TextView>
@@ -91,16 +90,16 @@
 
     <TextView
 
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:lines="1"
+        android:id="@+id/new_cost"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_width="85dp"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingBottom="8sp"
+        android:paddingTop="8sp"
         android:textSize="12sp"
-        android:layout_height="wrap_content"
-        android:id="@+id/new_cost"
         android:textStyle="normal"
         >
     </TextView>
@@ -109,13 +108,12 @@
         android:id="@+id/margin"
         android:layout_width="95dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginEnd="5dp"
-        android:focusable="false"
         android:layout_marginStart="5dp"
         android:background="@drawable/rectangular_transparent_gray"
+        android:focusable="false"
+        android:gravity="center"
         android:orientation="horizontal">
-
 
 
         <!-- <Button
@@ -131,80 +129,81 @@
             android:id="@+id/integer_number"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:gravity="center"
             android:text="0"
             android:textSize="12sp"
-            android:layout_marginStart="10dp"
             android:textStyle="normal"
             />
 
         <Button
             android:id="@+id/increase"
             android:layout_width="15dp"
-            android:background="@drawable/update_button_selector"
             android:layout_height="15dp"
             android:layout_marginEnd="10dp"
+            android:background="@drawable/update_button_selector"
             android:onClick="increaseInteger"
             />
 
 
     </LinearLayout>
+
     <TextView
 
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:lines="1"
-        android:layout_marginEnd="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_width="85dp"
-        android:textSize="12sp"
-        android:layout_height="wrap_content"
         android:id="@+id/prev_price"
-        android:textStyle="normal"
-        >
-    </TextView>
-
-    <TextView
-
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:lines="1"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_width="85dp"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingBottom="8sp"
+        android:paddingTop="8sp"
         android:textSize="12sp"
-        android:layout_height="wrap_content"
-        android:id="@+id/new_price"
         android:textStyle="normal"
         >
     </TextView>
-
-
-<LinearLayout
-    android:layout_width="110dp"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:layout_marginEnd="5dp"
-    android:layout_marginStart="5dp">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="18dp"
-        android:lines="1"
-        android:textSize="12sp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:paddingStart="5dp"
-        android:paddingEnd="5dp"
-        android:id="@+id/status"
-        android:textStyle="normal"
 
+        android:id="@+id/new_price"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingBottom="8sp"
+        android:paddingTop="8sp"
+        android:textSize="12sp"
+        android:textStyle="normal"
         >
     </TextView>
 
-</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="normal"
+
+            >
+        </TextView>
+
+    </LinearLayout>
 
     <!--  <LinearLayout
           android:layout_width="1dp"
@@ -215,21 +214,19 @@
       </LinearLayout>-->
 
 
+    <!-- <RadioButton
 
-
-   <!-- <RadioButton
-
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:textSize="12sp"
-        android:layout_marginStart="35dp"
-        android:id="@+id/reorder"
-        android:textStyle="bold"
-        >
-    </RadioButton>-->
+         android:layout_width="70dp"
+         android:layout_height="wrap_content"
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:textSize="12sp"
+         android:layout_marginStart="35dp"
+         android:id="@+id/reorder"
+         android:textStyle="bold"
+         >
+     </RadioButton>-->
 
     <!--<LinearLayout
         android:layout_width="1dp"
@@ -239,7 +236,6 @@
 
         <View style="@style/Divider_light_gray" />
     </LinearLayout>-->
-
 
 
     <!--</TableRow>-->
