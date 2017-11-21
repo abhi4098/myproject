@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:weightSum="1"
     android:background="@color/white"
-    tools:context="com.a83ideas.cobaltConnect.ui.fragments.NewlyUpdatedFragment">
+    tools:context="com.CobaltConnect1.ui.fragments.NewlyUpdatedFragment">
 
   <!--  <EditText
         android:id="@+id/etSearch"

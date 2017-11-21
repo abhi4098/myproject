@@ -1,4 +1,4 @@
-package com.a83ideas.cobaltConnect;
+package com.CobaltConnect1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

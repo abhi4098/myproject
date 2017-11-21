@@ -7,7 +7,7 @@
     android:background="@drawable/splash"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context="com.a83ideas.cobaltConnect.ui.activities.SplashActivity">
+    tools:context="com.CobaltConnect1.ui.activities.SplashActivity">
 
     <ImageView
         android:layout_gravity="center"

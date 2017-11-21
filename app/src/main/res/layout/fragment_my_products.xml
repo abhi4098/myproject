@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context="com.a83ideas.cobaltConnect.ui.fragments.NewlyUpdatedFragment">
+    tools:context="com.CobaltConnect1.ui.fragments.NewlyUpdatedFragment">
 
     <!--  <EditText
           android:id="@+id/etSearch"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.a83ideas.cobaltConnect.ui.activities.NavigationalDrawerActivity">
+    tools:context="com.CobaltConnect1.ui.activities.NavigationalDrawerActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

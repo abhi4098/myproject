@@ -9,24 +9,15 @@
     >
 
 
-    <!--<TextView
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:text="Product Name"
-        android:gravity="start|center_vertical"
-        android:textStyle="bold"
-        >
-    </TextView>-->
 
     <LinearLayout
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
-            android:layout_width="135dp"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:text="Product Name"
@@ -96,36 +87,15 @@
     </LinearLayout>
 
 
-    <!--<LinearLayout
-        android:layout_width="1dp"
-        android:layout_gravity="center"
-        android:layout_height="match_parent" >
-
-        <View style="@style/Divider" />
-    </LinearLayout>-->
-
-
-
-   <!-- <TextView
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:text="Product ID"
-        android:textStyle="bold"
-        >
-    </TextView>-->
-
 
     <LinearLayout
-        android:layout_width="125dp"
+        android:layout_width="90dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
-            android:layout_width="110dp"
+            android:layout_width="75dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -197,35 +167,96 @@
 
 
 
-    <!--    <LinearLayout
-            android:layout_width="1dp"
-            android:layout_gravity="center"
-            android:layout_height="match_parent" >
-
-            <View style="@style/Divider" />
-        </LinearLayout>-->
 
 
-    <!--<TextView
-        android:layout_width="90dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="Wholesaler"
-
-        >
-    </TextView>
--->
     <LinearLayout
-        android:layout_width="90dp"
+        android:layout_width="80dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
-            android:layout_width="75dp"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="Category"
+
+            >
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_category_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_category_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -300,25 +331,25 @@
 
 
 
-  <!--  <TextView
-        android:layout_width="90dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:text="Prev Cost"
-        android:textStyle="bold"
-        >
-    </TextView>-->
+    <!--  <TextView
+          android:layout_width="90dp"
+          android:layout_height="wrap_content"
+          android:paddingTop="8sp"
+          android:paddingBottom="8sp"
+          android:gravity="center"
+          android:text="Prev Cost"
+          android:textStyle="bold"
+          >
+      </TextView>-->
 
     <LinearLayout
-        android:layout_width="90dp"
+        android:layout_width="80dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
-            android:layout_width="75dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -389,20 +420,20 @@
 
 
 
-   <!-- <TextView
+    <!-- <TextView
 
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:layout_width="90dp"
-        android:layout_height="wrap_content"
-        android:text="New  Cost"
-        android:textStyle="bold"
-        >
-    </TextView>-->
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:text="New  Cost"
+         android:textStyle="bold"
+         >
+     </TextView>-->
 
     <LinearLayout
-        android:layout_width="90dp"
+        android:layout_width="80dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
@@ -412,7 +443,7 @@
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
             android:gravity="center"
-            android:layout_width="75dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:text="New Cost"
             android:layout_gravity="center_vertical"
@@ -490,29 +521,29 @@
                 <View style="@style/Divider" />
             </LinearLayout>-->
 
-   <!-- <TextView
+    <!-- <TextView
 
-        android:layout_width="95dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:text="Margins(%)"
-        android:textStyle="bold"
+         android:layout_width="95dp"
+         android:layout_height="wrap_content"
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:text="Margins(%)"
+         android:textStyle="bold"
 
-        >
-    </TextView>-->
+         >
+     </TextView>-->
 
 
     <LinearLayout
-        android:layout_width="95dp"
+        android:layout_width="90dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
 
-            android:layout_width="80dp"
+            android:layout_width="75dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -583,26 +614,26 @@
         <View style="@style/Divider_light_gray" />
     </LinearLayout>
 
-   <!-- <TextView
-        android:layout_width="90dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:text="Prev Price"
-        android:textStyle="bold"
+    <!-- <TextView
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:text="Prev Price"
+         android:textStyle="bold"
 
-        >
-    </TextView>
--->
+         >
+     </TextView>
+ -->
     <LinearLayout
-        android:layout_width="90dp"
+        android:layout_width="80dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
-            android:layout_width="75dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -681,28 +712,28 @@
 
 
 
-   <!-- <TextView
+    <!-- <TextView
 
-        android:layout_width="90dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:text="New Price"
-        android:textStyle="bold"
-        >
-    </TextView>-->
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:text="New Price"
+         android:textStyle="bold"
+         >
+     </TextView>-->
 
 
     <LinearLayout
-        android:layout_width="90dp"
+        android:layout_width="80dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
 
-            android:layout_width="75dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -774,28 +805,28 @@
         <View style="@style/Divider_light_gray" />
     </LinearLayout>
 
-   <!-- <TextView
+    <!-- <TextView
 
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingBottom="8sp"
-        android:gravity="center"
-        android:text="Status"
-        android:textStyle="bold"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:paddingTop="8sp"
+         android:paddingBottom="8sp"
+         android:gravity="center"
+         android:text="Status"
+         android:textStyle="bold"
 
-        >
-    </TextView>-->
+         >
+     </TextView>-->
 
     <LinearLayout
-        android:layout_width="85dp"
+        android:layout_width="65dp"
         android:gravity="start"
         android:orientation="horizontal"
         android:layout_height="match_parent" >
 
         <TextView
 
-            android:layout_width="70dp"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingTop="8sp"
             android:paddingBottom="8sp"
@@ -812,7 +843,6 @@
         <LinearLayout
             android:layout_width="15dp"
             android:layout_height="match_parent"
-            android:visibility="gone"
             android:layout_gravity="center"
             android:orientation="vertical"
             >
@@ -878,7 +908,85 @@
          >
      </TextView>-->
 
+    <LinearLayout
+        android:layout_width="65dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
 
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:gravity="center"
+            android:text="Stock"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textSize="13sp"
+            >
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_stock_asc"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/arrow_up_image"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/ll_stock_dsc"
+                android:layout_gravity="bottom">
+
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@drawable/arrow_down"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent" >
+
+        <View style="@style/Divider_light_gray" />
+    </LinearLayout>
 
 
 </LinearLayout>

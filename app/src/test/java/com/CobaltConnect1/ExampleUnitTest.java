@@ -1,4 +1,4 @@
-package com.a83ideas.cobaltConnect;
+package com.CobaltConnect1;
 
 import org.junit.Test;
 

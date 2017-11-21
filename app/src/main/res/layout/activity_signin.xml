@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     android:layout_height="match_parent"
     android:background="@drawable/signup_background"
-    tools:context="com.a83ideas.cobaltConnect.ui.activities.SignInActivity">
+    tools:context="com.CobaltConnect1.ui.activities.SignInActivity">
 
 
     <ImageView
